@@ -1,0 +1,12 @@
+print(f'{"th"}{"Thailand"}')
+print(f'{"th":5}|{"Thailand":15}|')
+print(f'{"th":<5}|{"Thailand":<15}|')
+print(f'{"th":>5}|{"Thailand":>15}|')
+print(f'{"th":*>5}|{"Thailand":->15}|')
+print(f'{"th":^5}|{"Thailand":^15}|')
+
+print(f"{'':#>22}")
+print(f"{'#':<21}{'#'}")
+print(f"{'#':<5}{'found items'}{'#':>6}")
+print(f"{'#':<21}{'#'}")
+print(f"{'':#>22}")
