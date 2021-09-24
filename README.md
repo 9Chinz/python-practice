@@ -10,9 +10,9 @@ practice python kmitl 64
 - ### [week 6](./week5/)
   
 ## Requirement
-- ### [python 3](https://www.python.org/downloads/)
-- ### [The Jupyter Notebook](https://jupyter.org/install)
-- ### IDE ([VSCODE](https://code.visualstudio.com/))
+- ### <a href="https://www.python.org/downloads/" target="_blank">python 3</a>
+- ### <a href="https://jupyter.org/install" target="_blank">The Jupyter Notebook</a>
+- ### any IDE (<a href="https://code.visualstudio.com/" target="_blank">VSCODE</a>)
 
 #### install jupyter notebook
 ```
