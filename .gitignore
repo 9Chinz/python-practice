@@ -1,0 +1,5 @@
+#ignore pdf
+/*.pdf
+
+#ignore word file
+/week*/file_lab/*.docx
