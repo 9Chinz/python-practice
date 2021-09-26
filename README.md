@@ -18,11 +18,11 @@ practice python kmitl 64
   
 ## Requirement
 
-- ### <a href="https://www.python.org/downloads/" target="_blank">python 3</a>
+- ### [python 3](https://www.python.org/downloads/)
 
-- ### <a href="https://jupyter.org/install" target="_blank">The Jupyter Notebook</a>
+- ### [The Jupyter Notebook](https://jupyter.org/install)
 
-- ### any IDE (<a href="https://code.visualstudio.com/" target="_blank">VSCODE</a>)
+- ### any IDE [VSCODE](https://code.visualstudio.com/)
 
 #### install jupyter notebook
 
