@@ -26,6 +26,6 @@ practice python kmitl 64
 
 #### install jupyter notebook
 
-```
+``` bash
 pip install jupyter
 ```
