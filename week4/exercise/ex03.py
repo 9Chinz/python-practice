@@ -101,18 +101,6 @@ def is_win(COIN):
     else:
         return False
 
-def is_user_win():
-    if horizontal_search(USER_COIN) or vertical_search(USER_COIN) or cross_search_right(USER_COIN) or cross_search_left(USER_COIN):
-        return True
-    else:
-        return False
-
-def is_com_win():
-    if horizontal_search(COMP_COIN) or vertical_search(COMP_COIN) or cross_search_right(COMP_COIN) or cross_search_left(COMP_COIN):
-        return True
-    else:
-        return False
-
 #! MAIN
 create_box()
 is_game_finished = False
