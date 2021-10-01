@@ -135,11 +135,11 @@ while not is_game_finished:
         if insert_coin(bot_select, COMP_COIN):
             break
     
-    if is_user_win():
+    if is_win(USER_COIN):
         draw_box()
         print("You win !")
         is_game_finished = True
-    elif is_com_win():
+    elif is_win(COMP_COIN):
         draw_box()
         print("COMP WIN YOU LOSE !")
         is_game_finished = True
