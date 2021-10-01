@@ -95,8 +95,8 @@ def cross_search_left(coin):
     return found
 ###!
 
-def is_win(COIN):
-    if horizontal_search(COIN) or vertical_search(COIN) or cross_search_right(COIN) or cross_search_left(COIN):
+def is_win(coin):
+    if horizontal_search(coin) or vertical_search(coin) or cross_search_right(coin) or cross_search_left(coin):
         return True
     else:
         return False
