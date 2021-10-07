@@ -4,5 +4,8 @@
 #ignore word file
 /week*/file_lab/*.docx
 
+#ignore folder pycache
+/week*/lecture/*/__pycache__
+
 #ignore .idea
 /.idea
