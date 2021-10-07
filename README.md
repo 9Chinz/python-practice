@@ -15,6 +15,10 @@ practice python kmitl 64
 - ### [week 5](./week4/)
 
 - ### [week 6](./week5/)
+
+## after midterm
+
+- ### [week 8](./week6/)
   
 ## Requirement
 
@@ -22,7 +26,7 @@ practice python kmitl 64
 
 - ### [The Jupyter Notebook](https://jupyter.org/install)
 
-- ### any IDE [VSCODE](https://code.visualstudio.com/)
+- ### any IDE [VSCODE](https://code.visualstudio.com/) [PyCharm](https://www.jetbrains.com/pycharm/)
 
 #### install jupyter notebook
 
