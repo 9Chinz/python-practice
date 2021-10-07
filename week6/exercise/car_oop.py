@@ -22,19 +22,19 @@ class Car:
 
     def max_payment(self):
         self.report.sort(key = lambda report: report[2])
-        return self.report[-1]
+        return self.report[len(self.report)-1] if self.report else []
 
 car_1 = Car('AA1234', 'Honda', 'White')
 car_2 = Car('AA1235', 'Toyota', 'Black')
 
 car_1.add_report(('25 May 2017', 'change tires', 1500))
-car_1.add_report(('25 May 2017', 'change tires', 3000))
+car_1.add_report(('26 May 2017', 'change tires', 3000))
 car_1.add_report(('30 May 2017', 'change choke', 2500))
-car_1.add_report(('30 May 2017', 'change choke', 5500))
+car_1.add_report(('1 June 2017', 'change front hood', 5500))
 
-print(car_1.report)
+print(car_1)
+print(f"report {car_1.report}")
+print(f"max payment {car_1.max_payment()}")
+print(f"total payment {car_1.total_payment()}")
 
 print(car_2 > car_1)
-print(car_1.max_payment())
-print(car_1.total_payment())
-
