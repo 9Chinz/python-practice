@@ -3,3 +3,6 @@
 
 #ignore word file
 /week*/file_lab/*.docx
+
+#ignore .idea
+/.idea
