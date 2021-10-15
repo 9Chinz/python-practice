@@ -19,6 +19,8 @@ practice python kmitl 64
 ## after midterm
 
 - ### [week 8](./week6/)
+
+- ### [week 9](./week7/)
   
 ## Requirement
 
