@@ -92,8 +92,13 @@ while is_start:
                 break
             print(f"Your cards: {user_hand}, {calculate_score(user_hand)}")
             print(f"Computer's first card: {computer_hand[0]}")
-            get_another_card = input(
-                "Type 'y' to get another card, type 'n' to pass: ")
+            while True:
+                get_another_card = input(
+                    "Type 'y' to get another card, type 'n' to pass: ")
+                if get_another_card.lower() in ("y", "n"):
+                    break
+                else:
+                    print("please enter 'Y'|'N' !")
             if get_another_card.lower() == 'y':
                 deal_card(user_hand)
             elif get_another_card.lower() == 'n':
