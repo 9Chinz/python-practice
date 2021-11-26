@@ -22,6 +22,8 @@ practice python kmitl 64
 
 - ### [week 9](./week7/)
   
+- ### [week 10](./week8/)
+  
 ## Requirement
 
 - ### [python 3](https://www.python.org/downloads/)
